@@ -12,10 +12,10 @@
 current_date_log=$(date +"%Y-%m-%d_%H:%M:%S")
 
 #Set the destination filename with the current date and time appended
-destination_filename="systemlog_${current_date_log}.log"
+Log_filename="systemlog_${current_date_log}.log"
 
 #Copy /var/log/syslog to the current working directory with the new filename
-cp /var/log/syslog "$destination_filename"
+cp /var/log/syslog "$Log_filename"
 
 #Display a message with the name of the copied file
-echo "Copied /var/log/syslog to $destination_filename"
+echo "Copied /var/log/syslog to $Log_filename"
