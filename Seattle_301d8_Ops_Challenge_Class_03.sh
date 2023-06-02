@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# Script: Ops 301 Class 02 Ops Challenge
+# Script: Ops 301 Class 03 Ops Challenge
 # Author: Justin R. Dotson
-# Date of latest revision: 05-31-23
-# Purpose: Ops Challenge - Time and date stamp logging
+# Date of latest revision: 06-01-23
+# Purpose: Ops Challenge - CHMOD change permissions for all files in a directory
         # Overview
-        #!/bin/bash
 
 # Prompt user for input directory path
 read -p "Enter the directory path: " directory
