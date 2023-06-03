@@ -18,24 +18,24 @@
 
 while true; do
     clear
-    echo "Do you like cats or dogs, or something else?"
-    echo "1. Cats"
-    echo "2. Dogs"
+    echo "Do you like people or computers, or something else?"
+    echo "1. People"
+    echo "2. Computers"
     echo "3. Other"
     echo "4. Exit"
     read choice
 
     if [[ $choice == 1 ]]; then
-        echo "Cats are cool"
+        echo "People are cool"
         # The -p option is used with the read command to display a prompt to the user and wait for them to enter input.
         read -p "Press Enter to continue"
     elif [[ $choice == 2 ]]; then
-        echo "Dogs are great"
+        echo "Computers are great"
         read -p "Press Enter to continue"
     elif [[ $choice == 3 ]]; then
-        echo "Oh, you are not a cat or dog person!"
-        read -p "What is your pet of choice? " pet
-        echo "I like $pet too!"
+        echo "Oh, you are not a people or computer person!"
+        read -p "What is your friend of choice? " friend
+        echo "I like $friend too!"
         read -p "Press Enter to continue"
     elif [[ $choice == 4 ]]; then
         echo "See ya later!"
