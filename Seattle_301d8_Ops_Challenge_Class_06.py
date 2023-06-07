@@ -1,19 +1,21 @@
+#!/usr/bin/env python3
+
 import os
 
 # Execute 'whoami' command
-whoami_output = os.popen('whoami').read() #.strip()
-print("Current user:", whoami_output)
+whoami_out = os.popen('whoami').read() #.strip()
+print("Current user:", whoami_out)
 
 
 # Execute 'ip a' command
-ip_output = os.popen('ip a').read()
+ip_out = os.popen('ip a').read()
 print("IP Address information:")
-print(ip_output)
+print(ip_out)
 
 # Execute 'lshw -short' command
-lshw_output = os.popen('lshw -short').read()
+lshw_out = os.popen('lshw -short').read()
 print("Hardware information:")
-print(lshw_output)
+print(lshw_out)
 
 
 # Execute 'pwd' command
