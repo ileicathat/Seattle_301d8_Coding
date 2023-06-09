@@ -84,6 +84,10 @@ print(thislist[5:])
 # Change the value of the seventh element to “onion”.
 
 (thislist[6])= "onion"
+print(thislist)
+
+
+# End
 
 
 # Stretch Goals (Optional Objectives)
