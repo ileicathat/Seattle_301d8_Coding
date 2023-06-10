@@ -70,7 +70,35 @@
 # Create an if statement using a logical conditional of your choice and include elif keyword 
 # that executes when other conditions are not met.
 
-# Create an if statement that includes both elif and else to execute when both if and elif are not met.
+# if-elif-else statement
+#!/usr/bin/env python3
+import os
+
+temperature = int(input("Enter the current temperature: "))
+
+if temperature < 40:
+  print("It's chilly outside.")
+elif temperature > 75:
+  print("It's warm outside.")
+else:
+  print("The temperature is pretty moderate.")
+
+# Create an if statement that includes both elif and else to execute when both if
+# and elif are not met.
+
+import os 
+
+Answer = input("Is homework easy, hard or impossible?: ")
+
+if Answer == "easy":
+    print("You're in the wrong class")
+elif Answer == "hard":
+    print("You're not using your TA's")
+elif Answer == "impossible":
+    print("It must be CodeFellows!")
+else:
+    print("I guess even this question is too difficult for you?")
+
 
 # Stretch Goals (Optional Objectives)
 # Pursue stretch goals if you are a more advanced user or have remaining lab time.
@@ -82,4 +110,6 @@
 #!/usr/bin/env python3
 
 # Start Main #
+
+import os
 
