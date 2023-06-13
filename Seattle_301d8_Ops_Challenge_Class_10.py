@@ -23,26 +23,28 @@
 
 # Start Code
 
-# Create a new text file
-file_path = "example.txt"
-file = open(file_path, "w")
+# Import the os module to handle file operations
+import os
+
+# Create a new .txt file
+OpsChallenge10 = "Modifyme.txt"
+file = open(OpsChallenge10, "w")
 
 # Append three lines to the file
-lines = ["First line", "Second line", "Third line"]
-for line in lines:
-    file.write(line + "\n")
+file.write("This Line First\n")
+file.write("Second line\n")
+file.write("Third line\n")
 
 # Close the file
 file.close()
 
-# Read the first line and print it
-file = open(file_path, "r")
-first_line = file.readline().rstrip()
+# Read the first line from the file
+file = open(OpsChallenge10, "r")
+first_line = file.readline()
+file.close()
+
+# Print the first line to the screen
 print("First line:", first_line)
 
-# Close the file
-file.close()
-
-# Delete the file
-import os
-os.remove(file_path)
+# Delete the .txt file
+os.remove(OpsChallenge10)
