@@ -4,7 +4,7 @@
 import requests
 
 # Prompt the user for destination URL
-url = input("Enter the destination URL: ")
+url = input("Enter the destination URL including https://: ")
 
 # Prompt the user to select HTTP Method
 http_method = input("Select an HTTP Method (GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS): ")
