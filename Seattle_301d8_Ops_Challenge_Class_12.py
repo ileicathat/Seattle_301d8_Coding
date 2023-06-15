@@ -58,7 +58,7 @@ response = requests.get('https://api.github.com')
 
 #!/usr/bin/env python3
 
-
+import os 
 import requests
 
 # Prompt the user for destination URL
